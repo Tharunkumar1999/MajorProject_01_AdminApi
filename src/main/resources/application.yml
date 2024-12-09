@@ -1,0 +1,23 @@
+  spring:
+    datasource:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/ies
+      username: root
+      password: Twister@123
+
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true  
+
+    mail:
+      host: smpt.gmail.com
+      password: zqplfonlpvetbsbm
+      port : 587
+      properties:
+         mail:
+           smtp:
+             auth: true
+             starttls:
+               enable: true
+      username: t.tharun1999@gmail.com
