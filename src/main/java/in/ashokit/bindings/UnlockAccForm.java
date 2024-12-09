@@ -3,7 +3,7 @@ package in.ashokit.bindings;
 import lombok.Data;
 
 @Data
-public class UnlockAccountForm {
+public class UnlockAccForm {
 
     private String email;
     private String tempPwd;

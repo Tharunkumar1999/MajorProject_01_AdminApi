@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import lombok.Data;
 
 @Data
-public class UserAccountForm {
+public class UserAccForm {
 
     private String fullName;
     private String email;
